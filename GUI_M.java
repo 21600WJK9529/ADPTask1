@@ -17,7 +17,7 @@ public class GUI_M extends JFrame{
         clickMe.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                txtDisplay.append("March games 2019");
+                txtDisplay.append("March games 2019\n\n");
                 txtDisplay.append("Dead or Alive 6 (PC, PS4, Xbox One) - March 1\n" +
                         "ToeJam & Earl: Back in the Groove (PC, Mac, Lin, Switch, Ps4, Xbox One) - March 1\n" +
                         "Left Alive (PS4, PC) – March 5\n" +
